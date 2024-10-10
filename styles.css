@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.mosaico {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    gap: 10px;
+}
+
+.mosaico div {
+    display: inline-block;
+    background-color: #ccc;
+}
+
+.div1 {
+    width: 100px;
+    height: 100px;
+    background-color: #ff6b6b;
+    border-radius: 50%; /* forma circular */
+}
+
+.div2 {
+    width: 150px;
+    height: 100px;
+    background-color: #1dd1a1;
+    border-radius: 20px;
+}
+
+.div3 {
+    width: 100px;
+    height: 150px;
+    background-color: #feca57;
+    transform: rotate(15deg); /* forma inclinada */
+}
+
+.div4 {
+    width: 150px;
+    height: 150px;
+    background-color: #54a0ff;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%); /* triângulo */
+}
+
